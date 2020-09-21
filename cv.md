@@ -19,5 +19,5 @@ Purposeful, hard-working, self-motivated, ready to improve technical skills to a
 
 ###Languages
 
-- Russian - native;
 - English - pre-intermediate;
+- Russian - native;
