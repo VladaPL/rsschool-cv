@@ -1,23 +1,24 @@
-#Vlada Plutalova
+# Vlada Plutalova
 
-###Title
+### Title
 
-- **E-mail**: [vladaplutalova@yandex.ru] ;
+- **E-mail**: [vladaplutalova@yandex.ru]
 
 - Start a career as Junior Front-End Developer
 
-###Summary
+### Summary
+
 Purposeful, hard-working, self-motivated, ready to improve technical skills to achieve the best results in work
 
-###Technical
+### Technical
 
 - Basic: CSS, HTML, Java Script
 
-###Courses
+### Courses
 
 - 2020 RS School
 
-###Languages
+### Languages
 
-- English - pre-intermediate;
-- Russian - native;
+- English - pre-intermediate
+- Russian - native
