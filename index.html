@@ -18,51 +18,81 @@
         </div>
       </div>
     </header>
-    <div class="wrapper">
-      <section>
-        <h2>Contact information</h2>
-        <ul>
-          <li>E-mail: vladaplutalova@yandex.ru</li>
-          <li>Phone: +7 915 123 45 56</li>
-        </ul>
-      </section>
-      <section>
-        <h2>About</h2>
-        <p>Start a career as Junior Front-End Developer</p>
-        <p>
-          I want to be a part of the promising and exciting information
-          technology industry. I enjoy learning new technologies. My goal is to
-          become a top-notch web developer. I am ready to study hard and develop
-          my skills in this direction.
-        </p>
-      </section>
-      <section>
-        <h2>Summary</h2>
-        <p>
-          Purposeful, hard-working, self-motivated, ready to improve technical
-          skills to achieve the best results in work
-        </p>
-      </section>
-      <section>
-        <h2>Technical</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Java Script</li>
-          <li>Git</li>
-        </ul>
-      </section>
-      <section>
-        <h2>Courses</h2>
-        <p>2021 RS School</p>
-      </section>
-      <section>
-        <h2>Languages</h2>
-        <ul>
-          <li>English - pre-intermediate</li>
-          <li>Russian - native</li>
-        </ul>
-      </section>
-    </div>
+    <main>
+      <div class="wrapper">
+        <section>
+          <h2>Contact information</h2>
+          <ul>
+            <li>E-mail: vladaplutalova@yandex.ru</li>
+            <li>Phone: +7 915 123 45 56</li>
+          </ul>
+        </section>
+        <section>
+          <h2>About</h2>
+          <p>Start a career as Junior Front-End Developer</p>
+          <p>
+            I want to be a part of the promising and exciting information
+            technology industry. I enjoy learning new technologies. My goal is
+            to become a top-notch web developer. I am ready to study hard and
+            develop my skills in this direction.
+          </p>
+        </section>
+        <section>
+          <h2>Summary</h2>
+          <p>
+            Purposeful, hard-working, self-motivated, ready to improve technical
+            skills to achieve the best results in work
+          </p>
+        </section>
+        <section>
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java Script</li>
+            <li>Git</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Code example</h2>
+          <pre>
+            <code>
+              function isPalindrom(str) {
+                var reg = /[\W_]/g;
+                var smallStr = str.toLowerCase().replace(reg, "");
+                var reversed = smallStr.split("").reverse().join("");
+                if (reversed === smallStr) return true;
+                return false;
+              }
+            </code>
+          </pre>
+        </section>
+        <section>
+          <h2>Education</h2>
+          <ul>
+            <li>
+              Saint-Petersburg State University of Industrial Technologies and
+              Design - 2014
+            </li>
+            <li>RS School - 2021</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Languages</h2>
+          <ul>
+            <li>English - pre-intermediate</li>
+            <li>Russian - native</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="wrapper">
+      <div class="footer-wrap">
+        <a>
+          <img class="icon" src="./image/insta-icon.svg" alt="Instagram link" />
+        </a>
+        <time>2021</time>
+      </div>
+    </footer>
   </body>
 </html>
