@@ -2,5 +2,5 @@
 https://vladapl.github.io/rsschool-cv/cv
 
 
-# HTML, CSS & Git Basics
+# HTML & CSS
 https://vladapl.github.io/rsschool-cv/
