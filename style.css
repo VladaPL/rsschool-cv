@@ -33,6 +33,75 @@ body {
   margin: 0 auto;
 }
 
+.menu-btn {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  z-index: 2;
+}
+
+.menu-btn span {
+  width: 30px;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(216, 30, 175);
+  transition: all 0.5s;
+}
+
+.menu-btn span:nth-of-type(2) {
+  top: calc(50% - 5px);
+}
+
+.menu-btn span:nth-of-type(3) {
+  top: calc(50% + 5px);
+}
+
+.menu {
+  position: fixed;
+  top: 140px;
+  left: 600px;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  transform: translateX(-100%);
+  transition: transform 0.5s;
+}
+
+.menu.active {
+  transform: translateX(0);
+}
+
+.menu-btn.active span:first-of-type {
+  opacity: 0;
+}
+
+.menu-btn.active span:nth-of-type(2) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.menu-btn.active span:nth-of-type(3) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.decor {
+  margin: 0;
+  width: 100%;
+  height: 100px;
+  background: url(./image/footer1.jpeg);
+}
+
+.decor_footer {
+  margin: 0;
+  width: 100%;
+  height: 100px;
+  background: url(./image/header1.jpeg);
+}
+
 .header_wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -46,28 +115,28 @@ body {
 }
 
 .header_item {
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .header_item:last-child {
   margin-right: 0;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
 }
 
 li {
   list-style-type: none; /* Прячем исходные маркеры */
- }
- li:before {
+}
+li:before {
   color: rgb(216, 30, 175); /* Цвет маркера */
   content: "=>"; /* Сам маркер */
   padding-right: 4px; /* Расстояние от маркера до текста */
- }
+}
 
-b{
+b {
   color: darkgreen;
 }
 
@@ -79,23 +148,31 @@ img {
   float: left;
 }
 h1 {
+  margin-left: 20px;
   font-weight: 100;
-}
-h2 {
-  font-weight: 900;
-  color: black;
+  letter-spacing: 3px;
 }
 
-
 h2 {
-  background-color: #069eb3;
-  /*background: url(./image/footer1.jpeg);*/
+  color: rgb(255, 254, 254);
+  font-size: 200%; /* Размер шрифта */
+  border-bottom: 2px solid #069eb3; /* Параметры линии под текстом */
+  font-weight: normal; /* Убираем жирное начертание */
+  padding-bottom: 5px; /* Расстояние от текста до линии */
+  letter-spacing: 3px;
 }
 
 .icon {
   width: 40px;
 }
-footer {
+
+.icon_link {
+  width: 42px;
+  height: 42px;
+}
+
+.footer-wrap {
+  display: flex;
+  flex-wrap: wrap;
   padding-top: 50px;
-  background: url(./image/header1.jpeg) no-repeat;
 }
