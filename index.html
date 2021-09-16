@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./highlight/styles/gradient-dark.min.css" />
     <title>CV</title>
   </head>
   <body>
@@ -44,7 +45,7 @@
           <img src="./image/avatarka2.jpeg" alt="Photo-CV" />
         </div>
         <section class="contacts" id="contacts">
-          <h2>Contact information</h2>
+          <h2 class="heading">Contact information</h2>
           <ul>
             <li>
               <a href="mailto:vladaplutalova@yandex.ru"
@@ -55,7 +56,7 @@
           </ul>
         </section>
         <section class="about" id="about">
-          <h2>About</h2>
+          <h3 class="heading">About</h3>
           <p>Start a career as Junior Front-End Developer</p>
           <p>
             I want to be a part of the promising and exciting information
@@ -65,14 +66,14 @@
           </p>
         </section>
         <section class="summary" id="summary">
-          <h2>Summary</h2>
+          <h4 class="heading">Summary</h4>
           <p>
             Purposeful, hard-working, self-motivated, ready to improve technical
             skills to achieve the best results in work
           </p>
         </section>
         <section class="skills" id="skills">
-          <h2>Skills</h2>
+          <h5 class="heading">Skills</h5>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -82,21 +83,29 @@
           </ul>
         </section>
         <section class="code" id="code">
-          <h2>Code example</h2>
+          <h6 class="heading">Code example</h6>
           <pre>
-            <code>
-              function isPalindrom(str) {
-                var reg = /[\W_]/g;
-                var smallStr = str.toLowerCase().replace(reg, "");
-                var reversed = smallStr.split("").reverse().join("");
-                if (reversed === smallStr) return true;
-                return false;
+            <code class="html">
+              let menu = {
+                width: 200,
+                height: 300,
+                title: "My menu"
+              };
+              
+              function multiplyNumeric(obj) {
+                for (let key in obj) {
+                  if (typeof(obj[key]) === 'number') {
+                    obj[key] = obj[key] * 2;
+                  }      
+                }
               }
+              
+              multiplyNumeric(menu);
             </code>
           </pre>
         </section>
         <section class="education" id="education">
-          <h2>Education</h2>
+          <h2 class="heading">Education</h2>
           <ul>
             <li>
               Saint-Petersburg State University of Industrial Technologies and
@@ -106,7 +115,7 @@
           </ul>
         </section>
         <section class="lang" id="lang">
-          <h2>Languages</h2>
+          <h2 class="heading">Languages</h2>
           <ul>
             <li>English - intermediate</li>
             <li>Russian - native</li>
@@ -124,5 +133,9 @@
     </footer>
     <div class="decor_footer"></div>
     <script src="script.js"></script>
+    <script src="./highlight/highlight.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
   </body>
 </html>

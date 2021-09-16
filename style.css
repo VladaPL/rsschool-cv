@@ -162,6 +162,15 @@ h2 {
   letter-spacing: 3px;
 }
 
+.heading {
+  color: rgb(255, 254, 254);
+  font-size: 200%; /* Размер шрифта */
+  border-bottom: 2px solid #069eb3; /* Параметры линии под текстом */
+  font-weight: normal; /* Убираем жирное начертание */
+  padding-bottom: 5px; /* Расстояние от текста до линии */
+  letter-spacing: 3px;
+}
+
 .icon {
   width: 40px;
 }
