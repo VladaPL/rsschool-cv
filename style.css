@@ -24,7 +24,8 @@ body {
   font-size: 16px;
   line-height: 1.2;
   font-weight: normal;
-  color: #6666666;
+  color: white;
+  background: rgb(41, 41, 41);
 }
 
 .wrapper {
@@ -32,25 +33,69 @@ body {
   margin: 0 auto;
 }
 
-img {
-  width: 300px;
-  border-radius: 70px;
-}
-h1 {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-h2 {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.header_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
-h1,
+.header_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header_item {
+  margin-right: 30px;
+}
+
+.header_item:last-child {
+  margin-right: 0;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style-type: none; /* Прячем исходные маркеры */
+ }
+ li:before {
+  color: rgb(216, 30, 175); /* Цвет маркера */
+  content: "=>"; /* Сам маркер */
+  padding-right: 4px; /* Расстояние от маркера до текста */
+ }
+
+b{
+  color: darkgreen;
+}
+
+img {
+  margin: 30px;
+  margin-left: 20px;
+  width: 250px;
+  border-radius: 150px;
+  float: left;
+}
+h1 {
+  font-weight: 100;
+}
 h2 {
-  background-color: #f0d6d6;
+  font-weight: 900;
+  color: black;
+}
+
+
+h2 {
+  background-color: #069eb3;
+  /*background: url(./image/footer1.jpeg);*/
 }
 
 .icon {
-  width: 50px;
+  width: 40px;
 }
 footer {
   padding-top: 50px;
+  background: url(./image/header1.jpeg) no-repeat;
 }

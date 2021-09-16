@@ -10,24 +10,48 @@
   <body>
     <header class="clearfix">
       <div class="wrapper">
-        <div class="name">
-          <h1>Vlada Plutalova</h1>
-        </div>
-        <div class="photo">
-          <img src="./image/avatar.jpg" alt="Photo-CV" />
+        <div class="header_wrapper">
+          <div class="name">
+            <h1><b>VL</b>ada <b>PL</b>utalova</h1>
+          </div>
+          <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <nav>
+            <ul class="header_list">
+              <li class="header_item">
+                <a href="#contacts">Contact information</a>
+              </li>
+              <li class="header_item">
+                <a href="#skills">Skills</a>
+              </li>
+              <li class="header_item"><a href="#code">Code example</a></li>
+              <li class="header_item"><a href="#education">Education</a></li>
+              <li class="header_item"><a href="#lang">Languages</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
     </header>
     <main>
       <div class="wrapper">
-        <section>
+        <div class="photo">
+          <img src="./image/avatarka2.jpeg" alt="Photo-CV" />
+        </div>
+        <section class="contacts" id="contacts">
           <h2>Contact information</h2>
           <ul>
-            <li>E-mail: vladaplutalova@yandex.ru</li>
-            <li>Phone: +7 911 824 06 54</li>
+            <li>
+              <a href="mailto:vladaplutalova@yandex.ru"
+                >E-mail: vladaplutalova@yandex.ru</a
+              >
+            </li>
+            <li><a href="tel:+79118240654"> Phone: +7 911 824 06 54</a></li>
           </ul>
         </section>
-        <section>
+        <section class="about" id="about">
           <h2>About</h2>
           <p>Start a career as Junior Front-End Developer</p>
           <p>
@@ -37,14 +61,14 @@
             develop my skills in this direction.
           </p>
         </section>
-        <section>
+        <section class="summary" id="summary">
           <h2>Summary</h2>
           <p>
             Purposeful, hard-working, self-motivated, ready to improve technical
             skills to achieve the best results in work
           </p>
         </section>
-        <section>
+        <section class="skills" id="skills">
           <h2>Skills</h2>
           <ul>
             <li>HTML</li>
@@ -54,7 +78,7 @@
             <li>Node.js</li>
           </ul>
         </section>
-        <section>
+        <section class="code" id="code">
           <h2>Code example</h2>
           <pre>
             <code>
@@ -68,7 +92,7 @@
             </code>
           </pre>
         </section>
-        <section>
+        <section class="education" id="education">
           <h2>Education</h2>
           <ul>
             <li>
@@ -78,7 +102,7 @@
             <li>RS School - 2021</li>
           </ul>
         </section>
-        <section>
+        <section class="lang" id="lang">
           <h2>Languages</h2>
           <ul>
             <li>English - intermediate</li>
