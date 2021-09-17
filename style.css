@@ -31,6 +31,34 @@ body {
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media (max-width: 1200px) {
+  .wrapper {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 992px) {
+  .wrapper {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    max-width: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .wrapper {
+    max-width: none;
+  }
+  .code {
+    max-width: 100%;
+  }
 }
 
 .menu-btn {
@@ -109,13 +137,9 @@ body {
   justify-content: space-between;
 }
 
-.header_list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .header_item {
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .header_item:last-child {
@@ -164,33 +188,43 @@ h2 {
 
 .heading {
   color: rgb(255, 254, 254);
-  font-size: 200%; 
-  border-bottom: 2px solid #069eb3; 
-  font-weight: normal; 
+  font-size: 200%;
+  border-bottom: 2px solid #069eb3;
+  font-weight: normal;
   padding-bottom: 5px;
   letter-spacing: 3px;
 }
 
 .project_name {
-  font-size: 150%; 
-  border-bottom: 2px solid rgb(216, 30, 175); 
+  font-size: 150%;
+  border-bottom: 2px solid rgb(216, 30, 175);
 }
 
 .projects_wrapper {
   text-align: center;
 }
 
-.icon {
-  width: 40px;
+.project_img {
+  width: 100%;
 }
 
-.icon_link {
-  width: 42px;
-  height: 42px;
+.footer_wrapper {
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: 2px solid #069eb3; /* Параметры линии под текстом */
 }
 
-.footer-wrap {
+.footer_list {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 50px;
+}
+
+.footer_item {
+  margin-right: 150px;
+  margin-bottom: 20px;
+}
+
+.footer_item:last-child {
+  margin-right: 0;
 }
