@@ -140,7 +140,7 @@ b {
   color: darkgreen;
 }
 
-img {
+.avatarka {
   margin: 30px;
   margin-left: 20px;
   width: 250px;
@@ -164,11 +164,20 @@ h2 {
 
 .heading {
   color: rgb(255, 254, 254);
-  font-size: 200%; /* Размер шрифта */
-  border-bottom: 2px solid #069eb3; /* Параметры линии под текстом */
-  font-weight: normal; /* Убираем жирное начертание */
-  padding-bottom: 5px; /* Расстояние от текста до линии */
+  font-size: 200%; 
+  border-bottom: 2px solid #069eb3; 
+  font-weight: normal; 
+  padding-bottom: 5px;
   letter-spacing: 3px;
+}
+
+.project_name {
+  font-size: 150%; 
+  border-bottom: 2px solid rgb(216, 30, 175); 
+}
+
+.projects_wrapper {
+  text-align: center;
 }
 
 .icon {
