@@ -6,3 +6,4 @@ menuButton.addEventListener("click", function () {
   menu.classList.toggle("active");
 });
 
+console.log('Здравствуй, уважаемый проверяющий!=) \n Самооценка CV: 145 / 150');
