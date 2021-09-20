@@ -28,6 +28,10 @@ body {
   background: rgb(41, 41, 41);
 }
 
+main {
+  scroll-behavior: smooth;
+}
+
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
@@ -149,6 +153,10 @@ body {
 a {
   text-decoration: none;
   color: white;
+}
+
+.header_link {
+  transition-duration: 1s;
 }
 
 li {
