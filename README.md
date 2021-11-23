@@ -2,4 +2,4 @@
 
 ## Follow the link to view the resume
 
-https://vladapl.github.io/rsschool-cv/cv
+https://vladapl.github.io/rsschool-cv/
