@@ -295,3 +295,15 @@ h2 {
 .footer_item:last-child {
   margin-right: 0;
 }
+
+.projects__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 0 60px;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+
