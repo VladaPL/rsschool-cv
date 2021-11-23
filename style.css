@@ -234,15 +234,20 @@ b {
   float: left;
 }
 h1 {
+  font-size: 40px;
   margin-left: 20px;
   font-weight: 100;
   letter-spacing: 3px;
+  text-shadow: 1px 1px 2px white;
+}
+.h2__under-line{
+  /*border-bottom: 2px solid #069eb3;*/
+  text-shadow: 1px 1px 2px #069eb3, 0 0 1em #069eb3, 0 0 0.2em #069eb3;
 }
 
 h2 {
   color: rgb(255, 254, 254);
   font-size: 200%; /* Размер шрифта */
-  border-bottom: 2px solid #069eb3; /* Параметры линии под текстом */
   font-weight: normal; /* Убираем жирное начертание */
   padding-bottom: 5px; /* Расстояние от текста до линии */
   letter-spacing: 3px;
