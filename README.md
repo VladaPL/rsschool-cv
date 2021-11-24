@@ -1,4 +1,4 @@
 # rsschool-cv
 
-https://vladapl.github.io/rsschool-cv/
+## Follow the link to view the resume
 
